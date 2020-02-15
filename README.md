@@ -2,11 +2,14 @@
 ![header](https://github.com/toprakmehmet/mushroom_classification/blob/master/pics/mushrooooom.jpeg)
 
 
-## Goal
-Build best fit machine learning models to predict that mushroom is edible or not
+## Description
 
-## Data Source
-The dataset was downloaded from https://data.world/uci/mushroom/workspace/project-summary?agentid=uci&datasetid=mushroom as csv file
+This predictive model can classify Mushrooms types(edible or not) based on mushrooms appearance!
+ - The dataset was downloaded from https://data.world/uci/mushroom/workspace/project-summary?agentid=uci&datasetid=mushroom as csv file
+ - Gathered 23 features on 5k mushrooms
+ - Engineered features from raw data that ended up being the most influential on model accuracy
+ - Compared evaluation metrics of 9 models to find top performer; Bagged Tree was most effective
+
 
 ## Python Tools:
    - Pandas
